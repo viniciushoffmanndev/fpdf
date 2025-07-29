@@ -1,6 +1,10 @@
 from fpdf import FPDF
 
 # Conteúdo do capítulo 1
+<<<<<<< HEAD
+=======
+titulo = "O Primeiro Script que Mudou Tudo"
+>>>>>>> efffe7a (feat(main): Alterado o print())
 conteudo = """
 Capítulo 1: O Primeiro Script que Mudou Tudo
 
@@ -34,5 +38,9 @@ for paragrafo in conteudo.strip().split('\n\n'):
 # Salvar o PDF
 pdf.output("O Primeiro Script que Mudou Tudo.pdf")
 
+<<<<<<< HEAD
 print("Relatório PDF formatado gerado com sucesso: relatorio_estrutura_cocalgpt_formatado.pdf")
+=======
+print(f"Criado com sucesso: {titulo}.pdf !")
+>>>>>>> efffe7a (feat(main): Alterado o print())
 
